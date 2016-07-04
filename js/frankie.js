@@ -4,7 +4,7 @@ var comments = {
         , { string: "%c🙉 %c If the current bug has you in hell, keep coding.", styles: ["font-size: 20px", "font-size: 14px; font-family: Arial"]}
         , { string: "%c🙉 %c Just do it! Yesterday you said tomorrow. JUST DO IT!", styles: ["font-size: 20px", "font-size: 14px; font-family: Arial"]}
         , { string: "%c🙉 %c You've gotten this far. What's another few bugs?", styles: ["font-size: 20px", "font-size: 14px; font-family: Arial"]}
-        , { string: "%c🙉 %c You're a good programmer. You're also amazingly gorgeous to look at. Take a break and look at a mirror for a bit.", styles: ["font-size: 20px", "font-size: 14px; font-family: Arial"]}
+        , { string: "%c🙉 %c You're a good programmer. You're also amazingly gorgeous to look at. Take a break and look at a mirror honey. 🙌", styles: ["font-size: 20px", "font-size: 14px; font-family: Arial"]}
         , { string: "%c🙉 %c Killin' it. Crushin' it. Smashin' it.", styles: ["font-size: 20px", "font-size: 14px; font-family: Arial"]}
     ],
     funny: [
