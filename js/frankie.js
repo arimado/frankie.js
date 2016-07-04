@@ -33,6 +33,17 @@ var getRandomComment = function (comments, feel) {
 }
 
 window.onerror = function(message, source, lineno, colno, error) {
+    console.log(message);
+    console.log(source);
+    console.log(lineno);
+    console.log(colno);
+    console.log(error);
     var randomComment = getRandomComment(comments, 'nice');
     log(randomComment.string, randomComment.styles);
 }
+
+
+
+
+
+w
