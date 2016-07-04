@@ -9,6 +9,7 @@ var comments = {
     ],
     funny: [
         , "%c🙉 %cPlumbers get payed a lot. Maybe you should give that a go?."
+        , "%c  "
     ]
 }
 
@@ -23,14 +24,23 @@ var request = function(method, url, callback) {
 var log = function (string, stylesArr) {
     var args = Array.prototype.slice.call(arguments);
     args = [string].concat(stylesArr);
-    console.log('args: ', args)
     console.log.apply(console, args);
 }
 
-window.onerror = function(message, source, lineno, colno, error) {
+var getRandomComment = function (comments, feel) {
+    var randCommentIndex = Math.floor( Math.random() * comments[feel].length );
+    return comments[feel][randCommentIndex];
+}
 
-    log(comments.nice[1].string, comments.nice[1].styles);
+window.onerror = function(message, source, lineno, colno, error) {
+    var randomComment = getRandomComment(comments, 'nice');
+    log(randomComment.string, randomComment.styles);
     console.log('')
+}
+
+
+
+
 
 
 
@@ -46,4 +56,3 @@ window.onerror = function(message, source, lineno, colno, error) {
     //
     //     }
     // });
-}
